@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Кошик</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <div class="logo">Potter<span>wand</span></div>
+        <nav class="nav">
+            <a href="index.html">Головна</a>
+            <a href="shop.html">Магазин</a>
+            <a href="cart.html" class="cart-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<section class="agent" style="padding-top:150px;">
+    <div class="container">
+        <h2 class="section-title">Ваш кошик</h2>
+
+        <div class="cart-items">
+            <p class="empty-cart">Кошик порожній 🪄</p>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Разом:</h3>
+            <div class="total-price">0 грн</div>
+        </div>
+
+        <div class="order-form">
+            <h3><i class="fas fa-feather-alt"></i> Деталі магічної доставки</h3>
+            <form id="checkout-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Ваше повне ім'я</label>
+                        <input type="text" id="name" placeholder="Гаррі Поттер" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Магічний зв'язок (Телефон)</label>
+                        <input type="tel" id="phone" placeholder="+380 00 000 00 00" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Спосіб доставки</label>
+                        <select id="delivery">
+                            <option value="owl">Совина пошта (Швидко)</option>
+                            <option value="broom">Кур'єр на мітлі</option>
+                            <option value="self">Самовивіз з Косого провулку</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Адреса (місто, відділення)</label>
+                        <input type="text" id="address" placeholder="Лондон, Тисова вулиця, 4">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn checkout-btn">
+                    <i class="fas fa-magic"></i> Підтвердити замовлення
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="copyright">
+            &copy; 2026 Potterwand
+        </div>
+    </div>
+</footer>
+<script src="cart.js"></script>
+</body>
+</html>

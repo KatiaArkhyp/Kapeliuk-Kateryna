@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин чарівних паличок</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container header-container">
+        <div class="logo">Potter<span>wand</span></div>
+
+        <nav class="nav">
+            <a href="index.html">Головна</a>
+            <a href="shop.html">Магазин</a>
+
+            <a href="cart.html" class="cart-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+
+<section class="agent" style="padding-top:150px;">
+    <div class="container">
+        <h2 class="section-title">Асортимент чарівних паличок</h2>
+
+        <div class="shop-grid">
+
+            <div class="wand-card">
+                <img src="https://images.prom.ua/3447451075_w640_h640_3447451075.jpg"
+                     alt="Паличка Гаррі Поттера">
+
+                <h3>Паличка Гаррі Поттера</h3>
+                <p class="wand-desc">Остролист, перо фенікса, Довжина: 11 дюймів (28 см)</p>
+                <div class="wand-price">1200 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="1"
+                        data-name="Паличка Гаррі Поттера"
+                        data-price="1200">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://apolonics.com.ua/content/images/9/536x357l50nn0/charivna-palychka-hermiony-hreindzher-iz-podarunkovoiu-korobkoiu-64332488929080.jpg"
+                     alt="Паличка Герміони">
+
+                <h3>Паличка Герміони</h3>
+                <p class="wand-desc">Виноградна лоза, жила дракона, Довжина: 10 ¾ дюйма (27 см)</p>
+                <div class="wand-price">1350 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="2"
+                        data-name="Паличка Герміони"
+                        data-price="1350">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://images.prom.ua/2603051381_w1280_h640_2603051381.jpg"
+                     alt="Паличка Седіка">
+
+                <h3>Паличка Седріка</h3>
+                <p class="wand-desc">Бузина, луска дракона, Довжина: 12 ¼ дюйма (31 см)</p>
+                <div class="wand-price">2500 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="3"
+                        data-name="Паличка Седріка"
+                        data-price="2500">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://images.prom.ua/3447256600_w640_h320_palochka-drako-malfoj.jpg"
+                     alt="Паличка Драко Малфоя">
+
+                <h3>Паличка Драко Малфоя</h3>
+                <p class="wand-desc">Глід, волос єдинорога, Довжина: 10 дюймів (25,5 см)</p>
+                <div class="wand-price">1100 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="4"
+                        data-name="Паличка Драко Малфоя"
+                        data-price="1100">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://amador.com/content/images/16/charivna-palichka-severusa-sneypa-garri-potter-noble-collection-nn5636-44087199183778_small11.jpg"
+                     alt="Паличка Северус Снейп">
+
+                <h3>Паличка Северус Снейп</h3>
+                <p class="wand-desc">Чорне дерево, волос кентавра, Довжина: Приблизно 13 ½ дюймів (34 см)</p>
+                <div class="wand-price">1250 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="4"
+                        data-name="Паличка Драко Малфоя"
+                        data-price="1250">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://pottershop.com.ua/content/images/thumbs/0015096_arivna-palika-rona-vizli-svitits_550.jpeg"
+                     alt="Паличка Рона Візлі">
+
+                <h3>Паличка Рона Візлі</h3>
+                <p class="wand-desc">Верба, волос кентавра, Довжина: 14 дюймів (бл. 35,5 см)</p>
+                <div class="wand-price">1250 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="4"
+                        data-name="Паличка Драко Малфоя"
+                        data-price="1250">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://content.rozetka.com.ua/goods/images/big/399274784.png"
+                     alt="Паличка Албуса Дамблдора">
+
+                <h3>Паличка Албуса Дамблдора</h3>
+                <p class="wand-desc">Бузина, волос хвоста тестрала, Довжина: 15 дюймів (бл. 38 см)
+                </p>
+                <div class="wand-price">1450 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="4"
+                        data-name="Паличка Драко Малфоя"
+                        data-price="1450">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+            <div class="wand-card">
+                <img src="https://content2.rozetka.com.ua/goods/images/big/334135726.jpg"
+                     alt="Паличка Лорда Волдемора">
+
+                <h3>Паличка Лорда Волдемора</h3>
+                <p class="wand-desc">Тис, перо фенікса, Довжина: 13,5 дюймів (бл. 34 см)</p>
+                <div class="wand-price">2250 грн</div>
+
+                <button class="btn add-to-cart"
+                        data-id="4"
+                        data-name="Паличка Драко Малфоя"
+                        data-price="2250">
+                    <i class="fas fa-cart-plus"></i> У кошик
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="copyright">
+            &copy; 2026 Potterwand. Всі права захищені.
+        </div>
+    </div>
+</footer>
+<script src="cart.js"></script>
+</body>
+</html>
